@@ -1,0 +1,8 @@
+<div *ngIf="tariff">
+  {{tariff.name}}
+</div>
+<br>
+<h2>Все тарифы</h2>
+<div *ngFor="let tariff of tariffs">
+  {{tariff.name}}: {{tariff.description}}
+</div>

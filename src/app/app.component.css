@@ -1,0 +1,38 @@
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 10%;
+}
+.flex-container {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.panel {
+  display: flex;
+  flex-direction: column;
+  min-width: 20%;
+  max-width: 20%;
+  padding-right: 5em;
+}
+.content {
+
+}
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  background-color: #eee;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #607d8b;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #cfd8dc;
+}
+nav a.active {
+  color: #039be5;
+}
